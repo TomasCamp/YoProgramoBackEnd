@@ -1,4 +1,4 @@
-package com.ArgProg.backend.Model;
+package com.ArgProg.backend.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -10,9 +10,9 @@ import lombok.NoArgsConstructor;
 
 @Data @AllArgsConstructor @NoArgsConstructor
 @Entity
-public class TipoHabilidad {
+public class TipoExperiencia {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long idTipoHabilidad;
-    private String tipo;
+    private Long idTipoExperiencia;
+    private String nombreTipo;
 }

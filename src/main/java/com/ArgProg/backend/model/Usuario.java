@@ -1,4 +1,4 @@
-package com.ArgProg.backend.Model;
+package com.ArgProg.backend.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,6 +1,6 @@
 package com.ArgProg.backend.controller;
 
-import com.ArgProg.backend.Model.Estudio;
+import com.ArgProg.backend.model.Estudio;
 import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
