@@ -5,6 +5,6 @@ import java.util.List;
 
 public interface IEstudioService {
     public List<Estudio> verEstudios();
-    public void salvarEstudios(Estudio estudio);
-    public void borrarEstudios(Long id);
+    public void salvarEstudio(Estudio estudio);
+    public void borrarEstudio(Long id);
 }
